@@ -1,12 +1,29 @@
 export const Items = {
-  Outputs: {
-    Speakers: ["Wedge", "Wedge x2", "Side left", "Side Right"],
-    EarPhones: ["Oreillettes In-Ears", "casque Headset"],
+  outputs: {
+    speakers: ["Wedge", "Wedge x2", "Side left", "Side Right"],
+    earPhones: ["Oreillettes In-Ears", "casque Headset"],
   },
-  Inputs: {
-    Percussions: [
-      "Batterie Acoustique",
-      "Batterie Electronique",
+  inputs: {
+    drum: [
+      "Kick In",
+      "Kick Out",
+      "kick Triggered",
+      "Snare Top",
+      "Snare Bottom",
+      "Snare Triggered",
+      "Tom high",
+      "Tom Mid",
+      "Tom Floor",
+      "Tom Triggered",
+      "hit Hat",
+      "Cymbal",
+      "Overhead Left",
+      "Overhead Center",
+      "Overhead Right",
+      "UnderHead Left",
+      "Underhead Right",
+    ],
+    percussions: [
       "Congas",
       "Bongos",
       "Djembe",
@@ -25,18 +42,18 @@ export const Items = {
       "Triangle",
       "Shime",
     ],
-    Bass: [
+    bass: [
       "Contrebasse",
       "Basse Acoustique",
       "Basse Electro-Acoustique",
       "Basse Electrique",
     ],
-    Guitar: [
+    guitar: [
       "Guitare Acoustique",
       "Guitare Electro-acoustique",
       "Guitare Electrique",
     ],
-    Picked: [
+    string: [
       "Ukulele",
       "banjo",
       "Mandoline",
@@ -46,9 +63,6 @@ export const Items = {
       "Oud",
       "Cithare",
       "Harpe",
-      "",
-    ],
-    Bowed: [
       "Violon Acoustique",
       "Violon Electrique",
       "Alto Acoustique",
@@ -58,7 +72,7 @@ export const Items = {
       "Viole de Gambe",
       "Vielle à Roue",
     ],
-    Brass: [
+    wind: [
       "Trompette",
       "Trombone à Pistons",
       "Trombone à Coulisse",
@@ -70,8 +84,6 @@ export const Items = {
       "Cor Anglais",
       "Didgeridoo",
       "Cornet",
-    ],
-    WoodWind: [
       "Flûte Traversière",
       "Flûte à Bec",
       "Flûte à anche Double",
@@ -80,20 +92,24 @@ export const Items = {
       "Ocarina",
       "Clarinette",
     ],
-    Electro: {
-      Keyboards: [
-        "Piano Droit",
-        "Piano à Queue",
-        "Piano Electrique",
-        "Piano Numérique",
-        "Clavier Arrangeur",
-        "Workstation",
-      ],
-      Pads: ["Sampler", "Samplepad"],
-      Computer: ["laptop", "mobile"],
-    },
-    Vocals: ["Micro Filaire", "Micro Sans Fil", "Micro HeadSet Sans fil"],
-    Amps: [
+    keyboards: [
+      "Piano Droit",
+      "Piano à Queue",
+      "Piano Electrique",
+      "Piano Numérique",
+      "Clavier Arrangeur",
+      "Workstation",
+    ],
+    numeric: [
+      "Batterie Electronique Left",
+      "batterie Electronique Right",
+      "Sampler",
+      "Samplepad",
+      "laptop",
+      "mobile",
+    ],
+    vocals: ["Micro Filaire", "Micro Sans Fil", "Micro HeadSet Sans fil"],
+    amps: [
       "Combo 1x12",
       "Combo 2x12",
       "Combo 1x15",
@@ -110,8 +126,8 @@ export const Items = {
       "Head + 4x12 + 4x12",
       "Head + 4x12 + 1x18",
     ],
-    Speakers: ["1x10", "1x12", "2x10", "2x12", "4x10", "4x12", "8x10", "8x12"],
-    PedalBoard: ["Effect", "Effect + Amp"],
+    speakers: ["1x10", "1x12", "2x10", "2x12", "4x10", "4x12", "8x10", "8x12"],
+    pedalBoard: ["Effect", "Effect + Amp"],
   },
-  ALim: ["usb", "alimentation électrique"],
+  aLim: ["usb", "alimentation électrique"],
 };
