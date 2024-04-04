@@ -1,4 +1,4 @@
-export const categoriesAndElements: Record<string, string[]> = {
+const categoriesAndElements: Record<string, string[]> = {
     drum: ["Kick In", 
         "Kick Out", 
         "kick Triggered", 
@@ -91,3 +91,5 @@ export const categoriesAndElements: Record<string, string[]> = {
         "Micro Sans Fil", 
         "Micro HeadSet Sans fil"],
   };
+
+export default categoriesAndElements;
